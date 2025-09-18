@@ -84,7 +84,18 @@
     "three": "^0.180.0",
     "uuid": "^11.1.0",
     "vm-browserify": "^1.1.2",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.18.5",
+
+    "process": "^0.11.10",
+    "buffer": "^6.0.3",
+    "stream-browserify": "^3.0.0",
+    "crypto-browserify": "^3.12.1",
+    "path-browserify": "^1.0.1",
+    "os-browserify": "^0.3.0",
+    "url": "^0.11.4",
+    "https-browserify": "^1.0.0",
+    "browserify-zlib": "^0.2.0",
+    "assert": "^2.1.0"
   },
   "scripts": {
     "prebuild": "node scripts/write-version.js",
@@ -96,22 +107,11 @@
     "test": "craco test"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
@@ -120,24 +120,10 @@
     "@capacitor/cli": "^7.4.2",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.16",
-    "assert": "^2.1.0",
     "autoprefixer": "^10.4.19",
     "babel-loader": "^10.0.0",
-    "browserify-zlib": "^0.2.0",
-    "buffer": "^6.0.3",
-    "crypto-browserify": "^3.12.1",
     "gh-pages": "^6.3.0",
-    "https-browserify": "^1.0.0",
-    "node-polyfill-webpack-plugin": "^4.1.0",
-    "os-browserify": "^0.3.0",
-    "path-browserify": "^1.0.1",
     "postcss": "^8.4.38",
-    "process": "^0.11.10",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0",
-    "tailwindcss": "^3.4.4",
-    "url": "^0.11.4"
+    "tailwindcss": "^3.4.4"
   }
 }
-
-
